@@ -16,7 +16,7 @@ export default function AdminDash() {
   />
   <meta name="author" content="Dreamguys - Bootstrap Admin Template" />
   <meta name="robots" content="noindex, nofollow" />
-  <title>Reports- HRMS admin template</title>
+  <title>Reports</title>
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" />
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
@@ -36,12 +36,12 @@ export default function AdminDash() {
         <div className="page-header">
           <div className="row">
             <div className="col-sm-12">
-              <h3 className="page-title">User Report</h3>
+              <h3 className="page-title">تقرير المستخدم</h3>
               <ul className="breadcrumb">
                 <li className="breadcrumb-item">
-                  <a href="admin-dashboard">Dashboard</a>
+                  <a href="admin-dashboard">لوحة القيادة</a>
                 </li>
-                <li className="breadcrumb-item active">User Reports</li>
+                <li className="breadcrumb-item active">تقارير المستخدم</li>
               </ul>
             </div>
           </div>
@@ -51,11 +51,11 @@ export default function AdminDash() {
             <div className="form-group form-focus">
               <div className="cal-icon">
                 <select className="form-control floating select">
-                  <option>Name1</option>
-                  <option>Name2</option>
+                  <option>الاسم1</option>
+                  <option>الاسم2</option>
                 </select>
               </div>
-              <label className="focus-label">User Role</label>
+              <label className="focus-label">صلاحية المستخدم</label>
             </div>
           </div>
           <div className="col-sm-6 col-md-3">
@@ -72,12 +72,12 @@ export default function AdminDash() {
                 <thead>
                   <tr>
                     <th>#</th>
-                    <th>Name</th>
-                    <th>Company</th>
-                    <th>Email</th>
-                    <th>Role</th>
-                    <th>Designation</th>
-                    <th>Status</th>
+                    <th>الأسم</th>
+                    <th>القسم / الشعبة</th>
+                    <th>البريد الألكتروني</th>
+                    <th>الصلاحية</th>
+                    <th>المنصب</th>
+                    <th>الحالة</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -89,11 +89,11 @@ export default function AdminDash() {
                           <img src="assets/img/profiles/avatar-19.jpg" alt="" />
                         </a>
                         <a href="profile">
-                          Barry Cuda <span>Global Technologies</span>
+                          Barry Cuda <span>شعبة المدن الذكية</span>
                         </a>
                       </h2>
                     </td>
-                    <td>Global Technologies</td>
+                    <td>شعبة المدن الذكية</td>
                     <td>
                       <a
                         href="/cdn-cgi/l/email-protection"
@@ -104,9 +104,9 @@ export default function AdminDash() {
                       </a>
                     </td>
                     <td>
-                      <span className="badge bg-inverse-info">Client</span>
+                      <span className="badge bg-inverse-info">طالب</span>
                     </td>
-                    <td>CEO</td>
+                    <td>مدير المشروع</td>
                     <td>
                       <div className="dropdown action-label">
                         <a
@@ -127,11 +127,11 @@ export default function AdminDash() {
                           <img src="assets/img/profiles/avatar-21.jpg" alt="" />
                         </a>
                         <a href="profile">
-                          Daniel Porter <span>Admin</span>
+                          Daniel Porter <span>ادمن</span>
                         </a>
                       </h2>
                     </td>
-                    <td>Focus Technologies</td>
+                    <td>قسم المدن الذكية</td>
                     <td>
                       <a
                         href="/cdn-cgi/l/email-protection"
@@ -142,9 +142,9 @@ export default function AdminDash() {
                       </a>
                     </td>
                     <td>
-                      <span className="badge bg-inverse-danger">Admin</span>
+                      <span className="badge bg-inverse-danger">ادمن</span>
                     </td>
-                    <td>Admin Manager</td>
+                    <td>مدير النظام</td>
                     <td>
                       <div className="dropdown action-label">
                         <a
