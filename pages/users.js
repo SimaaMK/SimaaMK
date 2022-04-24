@@ -16,7 +16,7 @@ export default function AdminDash() {
   />
   <meta name="author" content="Dreamguys - Bootstrap Admin Template" />
   <meta name="robots" content="noindex, nofollow" />
-  <title>Users - HRMS admin template</title>
+  <title>Users</title>
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" />
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
